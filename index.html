@@ -3,12 +3,585 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello world project</title>
+    <title>VPS Hosting China - ARZ Host | Professional VPS Solutions</title>
+    <meta
+      name="description"
+      content="Professional VPS hosting in China/Hong Kong. Fast, reliable, email-capable servers with instant deployment. Plans from $12.50/month."
+    />
+    <meta
+      name="keywords"
+      content="vps hosting hong kong, china vps hosting, email hosting, port 25 open"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <div id="root"></div>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <a href="https://arzhost.com/">ARZ Host</a>
+          </div>
 
-    <script type="module" src="/client/App.tsx"></script>
+          <!-- Desktop Navigation -->
+          <nav class="desktop-nav">
+            <a
+              href="https://arzhost.com/hosting/china-based-vps-server-hosting/"
+              >VPS Hosting China</a
+            >
+            <a href="https://arzhost.com/region-based-vps/">VPS Region</a>
+            <a href="https://arzhost.com/lifetime-web-hosting/"
+              >Lifetime Web Hosting</a
+            >
+            <a href="https://www.arzhost.com/about-us/">About Us</a>
+            <a href="https://www.arzhost.com/contact-us/">Contact Us</a>
+          </nav>
+
+          <!-- Mobile menu button -->
+          <button
+            class="mobile-menu-btn"
+            onclick="toggleMobileMenu()"
+            aria-label="Toggle mobile menu"
+          >
+            <span class="menu-icon">☰</span>
+            <span class="close-icon" style="display: none">✕</span>
+          </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+          <a href="https://arzhost.com/hosting/china-based-vps-server-hosting/"
+            >VPS Hosting China</a
+          >
+          <a href="https://arzhost.com/region-based-vps/">VPS Region</a>
+          <a href="https://arzhost.com/lifetime-web-hosting/"
+            >Lifetime Web Hosting</a
+          >
+          <a href="https://www.arzhost.com/about-us/">About Us</a>
+          <a href="https://www.arzhost.com/contact-us/">Contact Us</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>VPS Hosting China</h1>
+            <p class="hero-subtitle">
+              Accelerate Growth. Stay Local. Scale with Confidence.
+            </p>
+          </div>
+          <div class="hero-description">
+            <p>
+              Host your projects in or near Mainland China with our
+              <a href="https://arzhost.com/" class="link">VPS solutions</a>
+              designed for speed, reliability, and email functionality. Whether
+              you're launching a business, serving APAC clients, or scaling a
+              platform, these plans provide the infrastructure and flexibility
+              you need—instantly and hassle-free.
+            </p>
+            <div class="badges">
+              <span class="badge">🌐 China-Friendly Network</span>
+              <span class="badge">📧 Email Capable (Port 25 Open)</span>
+              <span class="badge">⚡ Instant Deployment</span>
+            </div>
+          </div>
+          <div class="hero-buttons">
+            <a href="https://arzhost.com/vps/" class="btn btn-primary"
+              >Choose Your Plan</a
+            >
+            <a
+              href="https://www.arzhost.com/contact-us/"
+              class="btn btn-outline"
+              >Talk to a Hosting Expert</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+      <div class="container">
+        <div class="section-header">
+          <h2>VPS Hosting Plans & Pricing</h2>
+          <p>
+            Our China-focused
+            <a
+              href="https://en.wikipedia.org/wiki/Virtual_private_server"
+              target="_blank"
+              rel="noopener"
+              class="link"
+              >VPS plans</a
+            >
+            deliver excellent value—transparent pricing, instant setup, scaling
+            options, and email-ready capabilities
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Starter VPS -->
+          <div class="pricing-card">
+            <div class="card-header">
+              <h3>Starter VPS</h3>
+              <p>
+                Perfect for personal projects, testing, or entry-level web apps
+              </p>
+              <div class="price">$12.50<span>/month</span></div>
+            </div>
+            <div class="card-content">
+              <a href="https://arzhost.com/vps/" class="btn btn-primary"
+                >Order Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Value VPS -->
+          <div class="pricing-card">
+            <div class="card-header">
+              <h3>Value VPS</h3>
+              <p>
+                Ideal for small businesses and growing websites needing
+                dependable uptime
+              </p>
+              <div class="price">$16.00<span>/month</span></div>
+            </div>
+            <div class="card-content">
+              <a href="https://arzhost.com/vps/" class="btn btn-primary"
+                >Order Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Essential VPS -->
+          <div class="pricing-card popular">
+            <div class="popular-badge">Popular</div>
+            <div class="card-header">
+              <h3>Essential VPS</h3>
+              <p>
+                A strong option for serious online platforms and client systems
+              </p>
+              <div class="price">$34.00<span>/month</span></div>
+            </div>
+            <div class="card-content">
+              <a href="https://arzhost.com/vps/" class="btn btn-primary"
+                >Order Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Comfort VPS -->
+          <div class="pricing-card">
+            <div class="card-header">
+              <h3>Comfort VPS</h3>
+              <p>
+                Designed for stable operations, high traffic, or
+                professional-grade workloads
+              </p>
+              <div class="price">$54.00<span>/month</span></div>
+            </div>
+            <div class="card-content">
+              <a href="https://arzhost.com/vps/" class="btn btn-primary"
+                >Order Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Elite VPS -->
+          <div class="pricing-card">
+            <div class="card-header">
+              <h3>Elite VPS</h3>
+              <p>
+                Tailored for enterprises, high-demand services, and
+                mission-critical applications
+              </p>
+              <div class="price">$60.00<span>/month</span></div>
+            </div>
+            <div class="card-content">
+              <a href="https://arzhost.com/vps/" class="btn btn-primary"
+                >Order Now</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-note">
+          <p>
+            All plans include email support, quick activation, and strategically
+            located servers near China.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Choose Our China VPS?</h2>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🌐</div>
+            <h3>Faster Connections Inside China</h3>
+            <p>
+              Hosting geographically near Mainland China means quicker access
+              for your users—crucial for speed and retention.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📧</div>
+            <h3>Send Emails with No Limitations</h3>
+            <p>
+              With Port 25 enabled, you can run your own email servers, alert
+              systems, or newsletters effortlessly.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Ready-to-Go in Minutes</h3>
+            <p>
+              Complete setup post-purchase—no wait times or manual provisioning
+              needed.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3>Grow on Your Terms</h3>
+            <p>
+              Easily upgrade plans to match your traffic, audience size, or
+              business demands—no data loss, no downtime.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3>Dependable, Always-On Network</h3>
+            <p>
+              Strong connectivity, reliable availability, and seamless user
+              experiences every time.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">👥</div>
+            <h3>Complete Control Over Your Environment</h3>
+            <p>
+              Absolute freedom to install, configure, and manage your setup as
+              you see fit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What You Get Section -->
+    <section class="benefits">
+      <div class="container">
+        <div class="section-header">
+          <h2>What You Get with Every Plan</h2>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <div class="check-icon">✓</div>
+            <div>
+              <h3>DDoS Protection & Stable Network</h3>
+              <p>
+                Safeguards in place to handle traffic spikes or unwanted
+                threats—so you stay online.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="check-icon">✓</div>
+            <div>
+              <h3>Unlimited Data Transfers</h3>
+              <p>
+                Move files, host content, or stream freely—no billing surprises.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="check-icon">✓</div>
+            <div>
+              <h3>24/7 Expert Support</h3>
+              <p>
+                Assistance anytime you need, with a team trained for China-based
+                hosting.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="check-icon">✓</div>
+            <div>
+              <h3>Complete Control Over Your Environment</h3>
+              <p>
+                Absolute freedom to install, configure, and manage your setup as
+                you see fit.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="check-icon">✓</div>
+            <div>
+              <h3>Global Access & Performance</h3>
+              <p>
+                Superior connection speeds not just in Asia, but from any region
+                worldwide.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section class="target-audience">
+      <div class="container">
+        <div class="section-header">
+          <h2>Who Benefits Most?</h2>
+        </div>
+
+        <div class="audience-grid">
+          <div class="audience-card">
+            <h3>Startups & Small Businesses</h3>
+            <p>Building their brand in China or APAC markets</p>
+          </div>
+
+          <div class="audience-card">
+            <h3>Developers & Agencies</h3>
+            <p>Hosting client demos, tests, or production setups</p>
+          </div>
+
+          <div class="audience-card">
+            <h3>eCommerce Sites & Content Platforms</h3>
+            <p>Looking for low-latency performance</p>
+          </div>
+
+          <div class="audience-card">
+            <h3>Email-Driven Businesses</h3>
+            <p>Sending transactional, marketing, or system emails</p>
+          </div>
+
+          <div class="audience-card">
+            <h3>Global Companies Expanding in Asia</h3>
+            <p>Needing reliable regional hosting</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Customers Say</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              "Great email support and fast deployment. Ideal for our small
+              biz."
+            </blockquote>
+            <cite>— Lina, Beijing</cite>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              "Consistent speed in China and responsive customer service."
+            </blockquote>
+            <cite>— Raj, Mumbai</cite>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              "Our team ran 24/7 services in Asia with no downtime—highly
+              recommend!"
+            </blockquote>
+            <cite>— Emily, Singapore</cite>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>Will my VPS be ready immediately?</h3>
+            <p>Yes — your server is live in minutes after payment.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Can I use it to send emails?</h3>
+            <p>Absolutely. Every plan comes with Port 25 enabled.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Can I upgrade later?</h3>
+            <p>Yes — scalability is seamless, with no service interruptions.</p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Is it accessible globally?</h3>
+            <p>Yes — hosted in Hong Kong/China but accessible anywhere.</p>
+          </div>
+
+          <div class="faq-item faq-full">
+            <h3>Can I host multiple apps or sites?</h3>
+            <p>
+              Yes — you're free to configure your VPS for multiple projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Deploy VPS Hosting in China?</h2>
+          <p>
+            Tap into fast, email-ready
+            <a href="https://arzhost.com/" class="link">VPS hosting</a> that's
+            purpose-built for China-based business needs—without the technical
+            hassles.
+          </p>
+          <div class="cta-buttons">
+            <a href="https://arzhost.com/vps/" class="btn btn-primary"
+              >Choose Your Plan →</a
+            >
+            <a
+              href="https://www.arzhost.com/contact-us/"
+              class="btn btn-outline"
+              >Talk to a Hosting Expert</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h3>ARZ Host</h3>
+            <p>
+              Professional VPS hosting solutions designed for China and APAC
+              markets.
+            </p>
+            <div class="contact-info">
+              <p>
+                Website:
+                <a href="https://arzhost.com/" class="link">arzhost.com</a>
+              </p>
+              <p>
+                Phone:
+                <a href="tel:+16315948060" class="link">+1 (631) 594-8060</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h3>Hosting Services</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://arzhost.com/hosting/china-based-vps-server-hosting/"
+                  >VPS Hosting China</a
+                >
+              </li>
+              <li>
+                <a href="https://arzhost.com/region-based-vps/">VPS Region</a>
+              </li>
+              <li>
+                <a href="https://arzhost.com/lifetime-web-hosting/"
+                  >Lifetime Web Hosting</a
+                >
+              </li>
+              <li><a href="https://arzhost.com/">Our hosting services</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="https://www.arzhost.com/about-us/">About Us</a></li>
+              <li>
+                <a href="https://www.arzhost.com/contact-us/">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Legal</h3>
+            <ul>
+              <li>
+                <a href="https://www.arzhost.com/terms-conditions/"
+                  >Terms and Conditions</a
+                >
+              </li>
+              <li>
+                <a href="https://www.arzhost.com/privacy-policy/"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="https://www.arzhost.com/disclaimer/">Disclaimer</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-separator"></div>
+
+        <div class="footer-bottom">
+          <p>© 2024 ARZ Host. All rights reserved.</p>
+          <p>
+            Professional VPS hosting Hong Kong solutions for global businesses.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function toggleMobileMenu() {
+        const mobileNav = document.getElementById("mobileNav");
+        const menuIcon = document.querySelector(".menu-icon");
+        const closeIcon = document.querySelector(".close-icon");
+
+        if (mobileNav.style.display === "block") {
+          mobileNav.style.display = "none";
+          menuIcon.style.display = "inline";
+          closeIcon.style.display = "none";
+        } else {
+          mobileNav.style.display = "block";
+          menuIcon.style.display = "none";
+          closeIcon.style.display = "inline";
+        }
+      }
+    </script>
   </body>
 </html>
